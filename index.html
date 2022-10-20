@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>pixlpark-test</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__top-bar">
+        <select name="currency" class="header__currency">
+          <option value="GBR">Currency: GBR</option>
+        </select>
+        <ul class="header__login-links">
+          <li>
+            <a href="#" class="header__login-link">Register</a>
+          </li>
+          <li>
+            <a href="#" class="header__login-link">Sign In</a>
+          </li>
+        </ul>
+        <select name="empty" class="header__empty">
+          <option value="empty">empty</option>
+        </select>
+      </div>
+      <div class="header__navigation-container">
+        <h2 class="header__subtitle">
+          <span class="header__subtitle-bold">avenue </span>
+          fashion
+        </h2>
+        <nav class="header__navigation-list">
+          <ul class="header__navigation">
+            <li><a href="#" class="header__navigation-link">mens</a></li>
+            <li><a href="#" class="header__navigation-link">womens</a></li>
+            <li><a href="#" class="header__navigation-link">the brand</a></li>
+            <li>
+              <a href="#" class="header__navigation-link">local stores</a>
+              <div class="header__sub-nav">
+                <div class="header__sub-nav-container">
+                  <div class="header__sub-nav-content">
+                    <p class="header__sub-nav-title">casuals</p>
+                    <ul class="header__sub-nav-list">
+                      <li>Jackets</li>
+                      <li>Hoodies & Sweatshirts</li>
+                      <li>Polo Shirts</li>
+                      <li>Sportswear</li>
+                      <li>Trousers & Chinos</li>
+                      <li>T-Shirts</li>
+                    </ul>
+                  </div>
+                  <div class="header__sub-nav-content">
+                    <p class="header__sub-nav-title">formals</p>
+                    <ul class="header__sub-nav-list">
+                      <li>Jackets</li>
+                      <li>Shirts</li>
+                      <li>Suits</li>
+                      <li>Trousers</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="header__sub-nav-banner">
+                  <h2 class="banner-title">Autumn sale!</h2>
+                  <p class="banner-text">up to 50% off</p>
+                </div>
+              </div>
+            </li>
+            <li><a href="#" class="header__navigation-link">look book</a></li>
+          </ul>
+        </nav>
+        <form name="search" class="header__search-form">
+          <input type="text" placeholder="Search..." class="header__search" />
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="title">
+        <h1 class="title__title">
+          <span class="title__title title__title_bold">local</span> stores
+        </h1>
+        <p class="title__text">find a store near you</p>
+      </section>
+      <section class="content">
+        <div class="content__locations">
+          <article class="content__location">
+            <h3 class="content__location-title">london</h3>
+            <p class="content__location-adress">
+              180-182 Regent Street, London, W1B 5BT
+            </p>
+            <p class="content__location-about">
+              Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+              Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec
+              tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+              Aliquam erat volutpat.
+            </p>
+            <button type="button" class="content__location-details">
+              view details
+            </button>
+          </article>
+          <article class="content__location">
+            <h3 class="content__location-title">New York</h3>
+            <p class="content__location-adress">
+              109 Columbus Circle, New York, NY 10023
+            </p>
+            <p class="content__location-about">
+              Nunc non posuere nisl. Etiam finibus vel dui nec lobor tis.
+              Aliquam egestas, sem quis condimentum venenatis, erat leo
+              fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae
+              aliquam dui, non sodales nisl.
+            </p>
+            <button type="button" class="content__location-details">
+              view details
+            </button>
+          </article>
+          <article class="content__location">
+            <h3 class="content__location-title">Paris</h3>
+            <p class="content__location-adress">
+              2133 Rue Saint-Honoré, 75001 Paris
+            </p>
+            <p class="content__location-about">
+              Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
+              eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum
+              ante ipsum primis in faucibus orcip luctus et ultrices posuere
+              cubilia curae cras ligula.
+            </p>
+            <button type="button" class="content__location-details">
+              view details
+            </button>
+          </article>
+        </div>
+        <div class="content__map-container">
+          <img
+            src="./images/map-greyscale.png"
+            alt="map"
+            class="content__map"
+          />
+          <div class="content__map-info">
+            <h3 class="content__location-title">london</h3>
+            <p class="content__location-adress">
+              180-182 Regent Street, London, W1B 5BT
+            </p>
+            <p class="content__location-about">
+              Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+              Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec
+              tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+              Aliquam erat volutpat.
+            </p>
+            <ul class="content__map-contacts">
+              <li class="content__location-contacts">
+                <img src="./images/location.png" alt="loc" />
+                <span class="content__contacts-text"
+                  >180-182 Regent Street, London, W1B 5BT</span
+                >
+              </li>
+              <li class="content__location-contacts">
+                <img src="./images/tel.png" alt="tel" />
+                <span class="content__contacts-text">0123-456-789</span>
+              </li>
+              <li class="content__location-contacts">
+                <img src="./images/glas.png" alt="glas" />
+                <span class="content__contacts-text">www.yourwebsite.com</span>
+              </li>
+              <li class="content__location-contacts">
+                <img src="./images/mail.png" alt="mail" />
+                <span class="content__contacts-text"
+                  >support@yourwebsite.com</span
+                >
+              </li>
+              <li class="content__location-contacts">
+                <img src="./images/clock.png" alt="clock" />
+                <span class="content__contacts-text"
+                  >Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am
+                  to 2pm</span
+                >
+              </li>
+            </ul>
+            <ul class="content__icons">
+              <li>
+                <a href="#" class="content__link">
+                  <img src="./images/facebook.png" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="content__link">
+                  <img src="./images/twitter.png" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="content__link">
+                  <img src="./images/instagram.png" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="content__link">
+                  <img src="./images/pinterest.png" alt="facebook" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__info-container">
+        <div class="footer__info-box">
+          <h4 class="footer__info-title">information</h4>
+          <ul class="footer__info-list">
+            <li>
+              <a href="#" class="footer__info"> The brand </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Local stores </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Customer service </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Privacy & cookies </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Site map </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info-box">
+          <h4 class="footer__info-title">Why buy from us</h4>
+          <ul class="footer__info-list">
+            <li>
+              <a href="#" class="footer__info"> Shipping & returns </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Secure shopping </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Testimonials </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Award winning </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Ethical trading </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info-box">
+          <h4 class="footer__info-title">Your account</h4>
+          <ul class="footer__info-list">
+            <li>
+              <a href="#" class="footer__info"> Sign in </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Register </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> View cart </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> View your lookbook </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Track an order </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Update information </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info-box">
+          <h4 class="footer__info-title">Lookbook</h4>
+          <ul class="footer__info-list">
+            <li>
+              <a href="#" class="footer__info"> Latest posts </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Men’s lookbook </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Women’s lookbook </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Lookbooks RSS feed </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> View your lookbook </a>
+            </li>
+            <li>
+              <a href="#" class="footer__info"> Delete your lookbook </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__info-box footer__contact-details">
+          <h4 class="footer__info-title">contact details</h4>
+          <ul class="footer__info-list">
+            <li>Head Office: Avenue Fashion, 180-182 Regent Street, London.</li>
+            <li>Telephone: 0123-456-789</li>
+            <li>Email: support@yourwebsite.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__banners">
+        <div class="footer__banner footer__banner_awards">
+          <h2 class="banner-title">award winner</h2>
+          <p class="banner-text">fashion awards 2016</p>
+        </div>
+        <div class="footer__banner footer__banner_icons">
+          <img src="./images/icons.png" alt="icons" />
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <span class="footer__copyright-text">© 2016 Avenue Fashion™</span>
+        <ul class="footer__dev-list">
+          <li>Design by RobbyDesigns.com</li>
+          <li>Dev by Loremipsum.com</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

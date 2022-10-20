@@ -1,0 +1,9 @@
+.page {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #8e8c8c;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
